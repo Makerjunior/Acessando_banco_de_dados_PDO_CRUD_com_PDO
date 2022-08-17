@@ -15,5 +15,9 @@ __Passos__
 
    )ENGINE=INNODB DEFAULT charset = utf8mb4; 
     ```
-1. Inserir dados na tabela usuarios ..   
-1. Criar arqquivo de configuração da Base de Dados
+1. Inserir dados na tabela usuarios ...   
+1. Criar arquivo de configuração da Base de Dados
+1. Adicionar elementos aos campos criados na Base de Dados
+1. Abrir o index.php para acompanhar o exemplo 
+
+  *   __obs: A pasta  com o progeto deve estar em **C:\xampp\htdocs\Nome_da_Pasta**, para que o PHP tenho acesso ao MYSQL__
