@@ -1,0 +1,15 @@
+{
+    "name": "neo/acessando_banco_de_dados_pdo_crud_com_pdo",
+    "autoload": {
+        "psr-4": {
+            "Neo\\AcessandoBancoDeDadosPdoCrudComPdo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Junior Maker",
+            "email": "juninhobarbeiro142@gmail.com"
+        }
+    ],
+    "require": {}
+}
