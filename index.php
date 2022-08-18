@@ -47,7 +47,7 @@ echo '<pre>';
 print_r($pesquisa);
 echo '</pre>';
 
-foreach ($pesquisa as $key => $value) {
+foreach ($pesquisa as $value) {
     
     echo $value .'<br>';
 }
