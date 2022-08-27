@@ -122,4 +122,12 @@ echo '<h4>Delete</h4>';
 $delete = ['id' => 25];
 $PDO->prepare("DELETE FROM usuarios WHERE id=:id")->execute($delete);
 
+
+
+
+
+
+
+
+
 ?>
