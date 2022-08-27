@@ -16,6 +16,10 @@ __Passos__
    )ENGINE=INNODB DEFAULT charset = utf8mb4; 
     ```
 1. Inserir dados na tabela usuarios ...   
+   ```
+   INSERT INTO usuarios (nome , email) VALUES ('Junior Pereira', 'makerjunior@gmail.com');
+   INSERT INTO usuarios (nome , email) VALUES ('Deise Grasiela', 'deisegrasiela@gmail.com');
+   ``` 
 1. Criar arquivo de configuração da Base de Dados
 1. Adicionar elementos aos campos criados na Base de Dados
 1. Abrir o index.php para acompanhar o exemplo 
