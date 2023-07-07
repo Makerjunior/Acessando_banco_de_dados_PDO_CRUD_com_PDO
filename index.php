@@ -39,7 +39,7 @@ echo '<hr>';
 
 echo '<h4>Select com parametro</h4>';
 $nome = 'Junior Pereira';
-$email = 'makerjunior@gmail.com';
+$email = 'junior@gmail.com';
 $query = $PDO->prepare("SELECT * FROM usuarios WHERE  nome = :nome AND email = :email");
 $query->execute(['nome' => $nome , 'email' => $email]);
 $pesquisa = $query->fetch();
@@ -90,7 +90,7 @@ echo '<h4>Create / inserindo daddos no banco </h4>';
 
 $dados = [
    'nome' => 'Jose Pedro',
-   'email' => 'josepedro@gmail.com'
+   'email' => 'pedro@gmail.com'
 ];
 
 $sql_dados = "INSERT INTO usuarios SET nome=:nome, email=:email;";
@@ -106,7 +106,7 @@ echo '<h4>Update  </h4>';
 $dados_Update = [
     'id' => 4,
     'nome' => 'Pedro Junior',
-    'email' => 'peddrojunior@gmail.com'
+    'email' => 'peddro@gmail.com'
  ];
  
  $sql_dados_Update = "UPDATE usuarios SET nome=:nome, email=:email WHERE id=:id;";
