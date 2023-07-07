@@ -17,8 +17,8 @@ __Passos__
     ```
 1. Inserir dados na tabela usuarios ...   
    ```
-   INSERT INTO usuarios (nome , email) VALUES ('Junior Pereira', 'makerjunior@gmail.com');
-   INSERT INTO usuarios (nome , email) VALUES ('Deise Grasiela', 'deisegrasiela@gmail.com');
+   INSERT INTO usuarios (nome , email) VALUES ('Junior Pereira', 'junior@gmail.com');
+   INSERT INTO usuarios (nome , email) VALUES ('Deise Grasiela', 'deisea@gmail.com');
    ``` 
 1. Criar arquivo de configuração da Base de Dados
 1. Adicionar elementos aos campos criados na Base de Dados
